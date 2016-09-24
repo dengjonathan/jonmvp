@@ -1,5 +1,7 @@
 'use strict';
 
+const $ = window.jQuery;
+
 $(function () {
 
   window.state = {};
