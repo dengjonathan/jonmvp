@@ -25,6 +25,14 @@ $(function () {
     });
   }
 
+  $('a.about').mouseover(function () {
+    $('div.about').removeClass('hidden');
+  });
+
+  $('a.about').mouseout(function () {
+    $('div.about').addClass('hidden');
+  })
+
   $('.store').click(function () {
     let $key = $('.key');
     let $value = $('.value');
