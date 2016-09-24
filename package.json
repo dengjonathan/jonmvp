@@ -3,14 +3,10 @@
   "version": "0.1.0",
   "scripts": {
     "test": "./node_modules/.bin/gulp test:coverage && if [ \"$TRAVIS\" ]; then cat ./coverage/**/lcov.info | ./node_modules/.bin/coveralls; fi",
-    "start": "node app/index.js"
+    "start": "node index.js"
   },
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "destroy": "^1.0.4",
-    "dropdown": "^0.2.0",
-    "ejs": "^2.5.2",
     "express": "^4.14.0",
     "font-awesome": "^4.6.3",
     "gulp-sass": "^2.3.2",
